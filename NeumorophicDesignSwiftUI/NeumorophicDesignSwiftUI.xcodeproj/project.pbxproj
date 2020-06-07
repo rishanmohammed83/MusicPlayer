@@ -16,6 +16,10 @@
 		D154BD7724694CFF0028279E /* NeumorphicImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */; };
 		D154BD792469592A0028279E /* trance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D154BD782469592A0028279E /* trance.jpg */; };
 		D154BD7B246959590028279E /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D154BD7A246959590028279E /* MusicPlayerView.swift */; };
+		D1A20577248CD5A100E744E8 /* MusicHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A20576248CD5A100E744E8 /* MusicHome.swift */; };
+		D1A2057C248D3EA000E744E8 /* beber.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A2057B248D3EA000E744E8 /* beber.png */; };
+		D1A2057E248D422D00E744E8 /* NeumorophicImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A2057D248D422D00E744E8 /* NeumorophicImage.swift */; };
+		D1A20580248D574C00E744E8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A2057F248D574C00E744E8 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicImageButton.swift; sourceTree = "<group>"; };
 		D154BD782469592A0028279E /* trance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trance.jpg; sourceTree = "<group>"; };
 		D154BD7A246959590028279E /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		D1A20576248CD5A100E744E8 /* MusicHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHome.swift; sourceTree = "<group>"; };
+		D1A2057B248D3EA000E744E8 /* beber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beber.png; sourceTree = "<group>"; };
+		D1A2057D248D422D00E744E8 /* NeumorophicImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorophicImage.swift; sourceTree = "<group>"; };
+		D1A2057F248D574C00E744E8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,7 @@
 				D1A20575248CD42500E744E8 /* View */,
 				D154BD6024694C9E0028279E /* AppDelegate.swift */,
 				D154BD6224694C9E0028279E /* SceneDelegate.swift */,
-				D154BD782469592A0028279E /* trance.jpg */,
+				D1A20578248D06F400E744E8 /* Resources */,
 				D154BD6624694CA40028279E /* Assets.xcassets */,
 				D154BD6B24694CA40028279E /* LaunchScreen.storyboard */,
 				D154BD6E24694CA40028279E /* Info.plist */,
@@ -85,11 +93,31 @@
 		D1A20575248CD42500E744E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */,
+				D1A20581248D622300E744E8 /* CustomView */,
 				D154BD6424694C9E0028279E /* ContentView.swift */,
+				D1A20576248CD5A100E744E8 /* MusicHome.swift */,
 				D154BD7A246959590028279E /* MusicPlayerView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D1A20578248D06F400E744E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D154BD782469592A0028279E /* trance.jpg */,
+				D1A2057B248D3EA000E744E8 /* beber.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1A20581248D622300E744E8 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */,
+				D1A2057D248D422D00E744E8 /* NeumorophicImage.swift */,
+				D1A2057F248D574C00E744E8 /* CardView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A2057C248D3EA000E744E8 /* beber.png in Resources */,
 				D154BD6D24694CA40028279E /* LaunchScreen.storyboard in Resources */,
 				D154BD6A24694CA40028279E /* Preview Assets.xcassets in Resources */,
 				D154BD792469592A0028279E /* trance.jpg in Resources */,
@@ -166,8 +195,11 @@
 			files = (
 				D154BD7B246959590028279E /* MusicPlayerView.swift in Sources */,
 				D154BD6124694C9E0028279E /* AppDelegate.swift in Sources */,
+				D1A20577248CD5A100E744E8 /* MusicHome.swift in Sources */,
 				D154BD6324694C9E0028279E /* SceneDelegate.swift in Sources */,
+				D1A2057E248D422D00E744E8 /* NeumorophicImage.swift in Sources */,
 				D154BD6524694C9E0028279E /* ContentView.swift in Sources */,
+				D1A20580248D574C00E744E8 /* CardView.swift in Sources */,
 				D154BD7724694CFF0028279E /* NeumorphicImageButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

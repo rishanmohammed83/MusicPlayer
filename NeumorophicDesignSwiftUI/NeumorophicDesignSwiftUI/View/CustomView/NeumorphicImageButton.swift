@@ -23,13 +23,9 @@ struct NeumorphicImageButton: View {
         self.size = size
     }
     
-    var grey: Color {
-        return Color(#colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1))
-    }
+    var grey: Color { return Color(#colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)) }
     
-    var white: Color {
-        return Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
-    }
+    var white: Color { return Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)) }
     
     var body: some View {
         HStack {
@@ -44,7 +40,6 @@ struct NeumorphicImageButton: View {
                     .resizable()
                     .frame(width: self.size.width, height: self.size.height)
                     .padding()
-                    //                    .foregroundColor(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
                     .background(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
                 
             }.clipShape(Circle())
@@ -58,6 +53,6 @@ struct NeumorphicImageButton: View {
 
 struct NeumorphicImageButton_Previews: PreviewProvider {
     static var previews: some View {
-        NeumorphicImageButton(systemName: "") {}
+        NeumorphicImageButton(systemName: "heart.fill") {}
     }
 }
