@@ -39,15 +39,12 @@ struct NeumorphicImageButton: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
                     self.isPressed = false
                     self.onType()
-                }
-                
-                
-            }) {
+                }}) {
                 Image(systemName: self.systemName)
-                .resizable()
+                    .resizable()
                     .frame(width: self.size.width, height: self.size.height)
                     .padding()
-//                    .foregroundColor(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
+                    //                    .foregroundColor(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
                     .background(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
                 
             }.clipShape(Circle())
@@ -61,6 +58,6 @@ struct NeumorphicImageButton: View {
 
 struct NeumorphicImageButton_Previews: PreviewProvider {
     static var previews: some View {
-        NeumorphicImageButton(systemName: "heart.fill") {}
+        NeumorphicImageButton(systemName: "") {}
     }
 }

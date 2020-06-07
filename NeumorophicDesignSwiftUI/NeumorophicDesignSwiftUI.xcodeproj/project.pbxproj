@@ -62,11 +62,9 @@
 		D154BD5F24694C9E0028279E /* NeumorophicDesignSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D1A20575248CD42500E744E8 /* View */,
 				D154BD6024694C9E0028279E /* AppDelegate.swift */,
 				D154BD6224694C9E0028279E /* SceneDelegate.swift */,
-				D154BD6424694C9E0028279E /* ContentView.swift */,
-				D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */,
-				D154BD7A246959590028279E /* MusicPlayerView.swift */,
 				D154BD782469592A0028279E /* trance.jpg */,
 				D154BD6624694CA40028279E /* Assets.xcassets */,
 				D154BD6B24694CA40028279E /* LaunchScreen.storyboard */,
@@ -82,6 +80,16 @@
 				D154BD6924694CA40028279E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1A20575248CD42500E744E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */,
+				D154BD6424694C9E0028279E /* ContentView.swift */,
+				D154BD7A246959590028279E /* MusicPlayerView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

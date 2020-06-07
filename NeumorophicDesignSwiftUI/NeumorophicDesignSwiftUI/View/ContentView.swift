@@ -11,14 +11,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+
+        MusicPlayerView()
             
-            NeumorphicImageButton(systemName: "heart.fill") {
-                //onTap event
-            }
-                .padding()
-            Text("Hello, World!")
-        }.frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(#colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)))
+        }
     }
 }
 
