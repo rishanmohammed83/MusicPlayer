@@ -9,10 +9,20 @@
 import SwiftUI
 
 struct CardView: View {
+    
+    private var name: String
+       
+    private var size: CGSize
+       
+    init(name: String,size: CGSize = CGSize(width: 60, height: 60)) {
+           self.name = name
+           self.size = size
+    }
+    
     var body: some View {
         HStack {
             ZStack{
-                NeumorophicImage(name: "trance")
+                NeumorophicImage(name: name)
                     .frame(width: 120, height: 120)
                     .clipShape(Circle())
             }.clipShape(Circle().inset(by: 15))
@@ -21,14 +31,19 @@ struct CardView: View {
             
             
             VStack {
+              
                 Text("Lose it")
                     .font(.custom("Arial", size: 20))
                     .foregroundColor(Color(#colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)))
-                
+               
                 Text("Flume ft Vic memma")
                     .foregroundColor(Color(#colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)))
                     .padding(.top, 10)
             }
+            
+            Image(systemName: "heart")
+                .foregroundColor(Color(.red))
+                .font(.custom("Arial", size: 20))
             
             NeumorphicImageButton(systemName: "pause.fill", size: CGSize(width: 25, height: 25)) {
             }.foregroundColor(Color.gray)
@@ -39,6 +54,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardView(name: "trance")
     }
 }

@@ -93,10 +93,12 @@
 		D1A20575248CD42500E744E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D1A20581248D622300E744E8 /* CustomView */,
 				D154BD6424694C9E0028279E /* ContentView.swift */,
 				D1A20576248CD5A100E744E8 /* MusicHome.swift */,
+				D1A2057F248D574C00E744E8 /* CardView.swift */,
+				D1A2057D248D422D00E744E8 /* NeumorophicImage.swift */,
 				D154BD7A246959590028279E /* MusicPlayerView.swift */,
+				D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,16 +110,6 @@
 				D1A2057B248D3EA000E744E8 /* beber.png */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		D1A20581248D622300E744E8 /* CustomView */ = {
-			isa = PBXGroup;
-			children = (
-				D154BD7624694CFF0028279E /* NeumorphicImageButton.swift */,
-				D1A2057D248D422D00E744E8 /* NeumorophicImage.swift */,
-				D1A2057F248D574C00E744E8 /* CardView.swift */,
-			);
-			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

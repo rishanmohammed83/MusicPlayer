@@ -11,13 +11,11 @@ import SwiftUI
 struct NeumorophicImage: View {
     
     private var name: String
-//    private var onType: () -> Void
     
     private var size: CGSize
     
     init(name: String,size: CGSize = CGSize(width: 60, height: 60)) {
         self.name = name
-//        self.onType = onType
         self.size = size
     }
     
